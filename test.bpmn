@@ -8,11 +8,6 @@
       <bpmn:incoming>Flow_0jwll5b</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_0jwll5b" sourceRef="StartEvent_1" targetRef="Event_0bzrntt" />
-    <bpmn:endEvent id="Event_0eji0j5" />
-    <bpmn:exclusiveGateway id="Gateway_0unhxim" />
-    <bpmn:task id="Activity_07415tm" />
-    <bpmn:dataObjectReference id="DataObjectReference_0kbxzov" dataObjectRef="DataObject_1i3v6ad" />
-    <bpmn:dataObject id="DataObject_1i3v6ad" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
@@ -21,18 +16,6 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0bzrntt_di" bpmnElement="Event_0bzrntt">
         <dc:Bounds x="442" y="102" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0eji0j5_di" bpmnElement="Event_0eji0j5">
-        <dc:Bounds x="402" y="332" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Gateway_0unhxim_di" bpmnElement="Gateway_0unhxim" isMarkerVisible="true">
-        <dc:Bounds x="265" y="235" width="50" height="50" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_07415tm_di" bpmnElement="Activity_07415tm">
-        <dc:Bounds x="780" y="310" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="DataObjectReference_0kbxzov_di" bpmnElement="DataObjectReference_0kbxzov">
-        <dc:Bounds x="592" y="225" width="36" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0jwll5b_di" bpmnElement="Flow_0jwll5b">
         <di:waypoint x="209" y="120" />
