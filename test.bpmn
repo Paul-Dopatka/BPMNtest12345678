@@ -1,26 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn">
-  <bpmn:process id="Process_1" name="test" isExecutable="false">
-    <bpmn:startEvent id="StartEvent_1">
-      <bpmn:outgoing>Flow_0jwll5b</bpmn:outgoing>
-    </bpmn:startEvent>
-    <bpmn:endEvent id="Event_0bzrntt">
-      <bpmn:incoming>Flow_0jwll5b</bpmn:incoming>
-    </bpmn:endEvent>
-    <bpmn:sequenceFlow id="Flow_0jwll5b" sourceRef="StartEvent_1" targetRef="Event_0bzrntt" />
-  </bpmn:process>
-  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
-    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
-      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
-        <dc:Bounds x="173" y="102" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0bzrntt_di" bpmnElement="Event_0bzrntt">
-        <dc:Bounds x="442" y="102" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_0jwll5b_di" bpmnElement="Flow_0jwll5b">
-        <di:waypoint x="209" y="120" />
-        <di:waypoint x="442" y="120" />
-      </bpmndi:BPMNEdge>
-    </bpmndi:BPMNPlane>
-  </bpmndi:BPMNDiagram>
-</bpmn:definitions>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" modeler:executionPlatform="Camunda Platform"><bpmn:process id="Process_1" name="konnte nicht geladen werden soooooooooooooooooooooooo lange ssssssssssssasdadadsadadascyadaysc" isExecutable="false"><bpmn:startEvent id="StartEvent_1"><bpmn:outgoing>Flow_1iufqpv</bpmn:outgoing><bpmn:outgoing>Flow_1okn4ct</bpmn:outgoing><bpmn:outgoing>Flow_1jkpg1z</bpmn:outgoing></bpmn:startEvent><bpmn:endEvent id="Event_1m7dxjq"><bpmn:incoming>Flow_1iufqpv</bpmn:incoming></bpmn:endEvent><bpmn:sequenceFlow id="Flow_1iufqpv" sourceRef="StartEvent_1" targetRef="Event_1m7dxjq" /><bpmn:intermediateThrowEvent id="Event_11g7ims"><bpmn:incoming>Flow_1okn4ct</bpmn:incoming></bpmn:intermediateThrowEvent><bpmn:sequenceFlow id="Flow_1okn4ct" sourceRef="StartEvent_1" targetRef="Event_11g7ims" /><bpmn:sequenceFlow id="Flow_1jkpg1z" sourceRef="StartEvent_1" targetRef="Activity_139aq8v" /><bpmn:subProcess id="Activity_139aq8v"><bpmn:incoming>Flow_1jkpg1z</bpmn:incoming></bpmn:subProcess></bpmn:process><bpmndi:BPMNDiagram id="BPMNDiagram_1"><bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1"><bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1"><dc:Bounds x="173" y="102" width="36" height="36" /></bpmndi:BPMNShape><bpmndi:BPMNShape id="Event_1m7dxjq_di" bpmnElement="Event_1m7dxjq"><dc:Bounds x="262" y="102" width="36" height="36" /></bpmndi:BPMNShape><bpmndi:BPMNShape id="Event_11g7ims_di" bpmnElement="Event_11g7ims"><dc:Bounds x="262" y="212" width="36" height="36" /></bpmndi:BPMNShape><bpmndi:BPMNShape id="Activity_1bzfntl_di" bpmnElement="Activity_139aq8v" isExpanded="true"><dc:Bounds x="150" y="350" width="230" height="120" /></bpmndi:BPMNShape><bpmndi:BPMNEdge id="Flow_1iufqpv_di" bpmnElement="Flow_1iufqpv"><di:waypoint x="209" y="120" /><di:waypoint x="262" y="120" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id="Flow_1okn4ct_di" bpmnElement="Flow_1okn4ct"><di:waypoint x="209" y="120" /><di:waypoint x="240" y="120" /><di:waypoint x="240" y="230" /><di:waypoint x="262" y="230" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id="Flow_1jkpg1z_di" bpmnElement="Flow_1jkpg1z"><di:waypoint x="191" y="138" /><di:waypoint x="191" y="350" /></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></bpmn:definitions>
